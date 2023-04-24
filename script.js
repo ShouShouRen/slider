@@ -4,16 +4,16 @@ document.getElementById('next').onclick = function () {
 }
 document.getElementById('prev').onclick = function () {
   let lists = document.querySelectorAll('.item');
-  document.getElementById('slide').prepend(lists[lists.length - 1 ]);
+  document.getElementById('slide').prepend(lists[lists.length - 1]);
 }
 
 let autoPlayInterval;
 
 function startAutoPlay() {
-  autoPlayInterval = setInterval(function() {
+  autoPlayInterval = setInterval(function () {
     let lists = document.querySelectorAll('.item');
     document.getElementById('slide').appendChild(lists[0]);
-  }, 4500); // 每隔3秒執行一次
+  }, 4500);
 }
 
 startAutoPlay();

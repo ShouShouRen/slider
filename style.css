@@ -111,14 +111,14 @@ body {
     filter: blur(0);
   }
 }
-.buttons{
+.buttons {
   position: absolute;
   bottom: 30px;
   z-index: 22222;
   text-align: center;
   width: 100%;
 }
-.buttons button{
+.buttons button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -126,6 +126,6 @@ body {
   color: #999;
   transition: 0.5s;
 }
-.buttons button:hover{
+.buttons button:hover {
   background-color: #10100c;
 }
